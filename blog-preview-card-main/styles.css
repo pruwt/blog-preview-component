@@ -51,6 +51,8 @@
     font-family: 'Figtree';
     src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
   }
+
+
   body{
     display: flex;
     flex-direction: column;
@@ -58,15 +60,16 @@
     align-items: center;
     font-family:'Figtree';
     background-color: #F4D04E;
+
   }
 
   .component-wrapper{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    max-width: 20rem;
+    max-width: 22rem;
     /* max-height: 100%; */
-    margin-top: 30%;
+    margin-top: 30px;
     padding: 24px;
     border: 1px solid #111111;
     border-radius: 20px;
@@ -89,11 +92,35 @@
     max-width: 30%;
     padding:8px;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     text-align: center;
+    color: #111111;
+
   }
 
   .published-text{
-    
+    font-size: 0.875rem;
+    color: #111111;
+    font-weight: 500;
+  }
+  h1{
+    font-size: 1.5rem;
+    color: #111111;
+    font-weight: 800;
+  }
+  .description{
+    font-size: 1rem;
+    color: #6B6B6B;
+    font-weight: 500;
+  }
+  .author-container{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .author-container > p {
+    font-size: 0.875rem;
+    color: #111111;
+    font-weight: bold;
   }
