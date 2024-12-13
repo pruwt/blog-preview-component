@@ -60,6 +60,7 @@
     align-items: center;
     font-family:'Figtree';
     background-color: #F4D04E;
+    padding: 24px;
 
   }
 
@@ -123,4 +124,12 @@
     font-size: 0.875rem;
     color: #111111;
     font-weight: bold;
+  }
+  .icon{
+    height: 32px;
+    width: 32px;
+  }
+  h1:hover{
+    color: #F4D04E;
+    cursor: pointer;
   }
